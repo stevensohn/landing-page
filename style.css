@@ -36,7 +36,6 @@ a {
 .image1 {
     width: 400px;
     height: 200px;
-    display:inline-block;
 }
 
 .title {
@@ -52,4 +51,29 @@ a {
     height: 400px;
     justify-content: center;
     align-items: center;
+}
+
+.title2 {
+    font-size: 36px;
+    font-weight: bold;
+    color:#1F2937;
+    text-align: center;
+}
+
+.image {
+    width: 200px;
+    height: 100px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 20px;
 }
