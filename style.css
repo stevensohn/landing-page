@@ -47,10 +47,21 @@ a {
     background-color: #1F2937;
     color: white;
     display: flex;
-    flex-direction: column;
     height: 400px;
-    justify-content: center;
-    align-items: center;
+    padding: 100px 200px;
+    box-sizing: border-box;
+    gap: 50px;
+}
+
+.lefthand {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button1 {
+    background-color: #3882F6;
+    color:white;
 }
 
 .title2 {
@@ -76,4 +87,54 @@ a {
     flex-direction: column;
     width: 200px;
     padding: 20px;
+}
+
+.section2 {
+    height: 400px;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    height: 400px;
+    font-size: 36px;
+    font-weight:lighter;
+    color:#1F2937;
+    font-style: italic;
+    padding: 100px 300px;
+    box-sizing: border-box
+}
+
+.author {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section4 {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluebox {
+    background-color: #3882F6;
+    height: 100px;
+    width: 800px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding: 0 100px;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color:#E5E7EB;
 }
